@@ -2,19 +2,23 @@ import styled from 'styled-components';
 
 export const Label = styled.label`
   display: flex;
+  align-items: center;
   flex-direction: column;
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 `;
 
 export const Input = styled.input`
-  max-width: 240px;
+  width: 240px;
   height: 24px;
-  font-size: 16px;
-  outline-color: skyblue;
+  font-size: 14px;
+
+  outline: none;
+  border-radius: 3px;
+  border: 2px solid #CD9777;
 `;
 
 export const Span = styled.span`
-  padding-bottom: 10px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 500;
 `;
